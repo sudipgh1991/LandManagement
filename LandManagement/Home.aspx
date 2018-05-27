@@ -31,7 +31,7 @@
                             </li>
 
                         </ul>
-                        <p class="link"><a href="#">Enter &raquo;</a></p>
+                        <p class="link"><a href="Customer.aspx">Enter &raquo;</a></p>
                     </article>
                     <article class="one_third">
                         <h3 class="heading">Company</h3>

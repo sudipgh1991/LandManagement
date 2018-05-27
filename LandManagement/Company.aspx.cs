@@ -6,11 +6,10 @@ using System.Reflection;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using LandManagement.Model;
 
 namespace LandManagement
 {
-    public partial class Customer : System.Web.UI.Page
+    public partial class Company : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -20,22 +19,21 @@ namespace LandManagement
             }
             if (IsPostBack)
             {
-                InsertCustomer();
+                InsertCompany();
             }
         }
-
-        private void InsertCustomer()
+        private void InsertCompany()
         {
             InsertData insertData = new InsertData();
-            LandManagement.Model.Customer cust = new LandManagement.Model.Customer();
+            LandManagement.Model.Company comp = new LandManagement.Model.Company();
             PropertyInfo[] properties = typeof(Customer).GetProperties();
             for (int i = 0; i < Request.Form.AllKeys.Length; i++)
             {
                 PropertyInfo property = properties[i];
-                property.SetValue(cust, Request.Form[Request.Form.AllKeys[i]]);
+                property.SetValue(comp, Request.Form[Request.Form.AllKeys[i]]);
 
             }
-            insertData.InsertCustomerData(cust);
+            insertData.InsertCompanyData(comp);
         }
     }
 }

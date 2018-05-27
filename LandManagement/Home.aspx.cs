@@ -11,6 +11,11 @@ namespace LandManagement
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+            if(Session["ValidUser"]==null)
+            {
+                Response.Redirect("Login.aspx");
+            }
 
         }
     }

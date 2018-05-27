@@ -13,13 +13,13 @@
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Name</asp:label>
                         <asp:TextBox ID="Name" Text="Name" 
-                           runat="server" ReadOnly="true"/>
+                           runat="server"/>
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-user"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Father's Name</asp:label>
                         <asp:TextBox ID="FatherName" Text="Father's Name" 
-                           runat="server" ReadOnly="true"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-user"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
