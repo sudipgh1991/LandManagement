@@ -25,19 +25,19 @@
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Mother's Name</asp:label>
                         <asp:TextBox ID="MotherName" Text="Mother's Name" 
-                           runat="server" ReadOnly="true"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-user"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Spouse's Name</asp:label>
                         <asp:TextBox ID="SpouseName" Text="Spouse's Name" 
-                           runat="server" ReadOnly="true"/>
+                           runat="server"/>
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-user"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Number of Children</asp:label>
                         <asp:TextBox ID="NumChild" Text="Number of Children" 
-                           runat="server" ReadOnly="true"/>
+                           runat="server"/>
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
@@ -50,37 +50,37 @@
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Age</asp:label>
                         <asp:TextBox ID="Age" Text="Age" 
-                           runat="server" ReadOnly="true"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">NID/Passport/Driving License Number</asp:label>
                         <asp:TextBox ID="IDNumber" Text="NID/Passport/Driving License Number" 
-                           runat="server" ReadOnly="true"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
                      <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Mobile Number 1</asp:label>
                         <asp:TextBox ID="Mobile1" Text="Mobile Number 1" 
-                           runat="server" ReadOnly="true"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Mobile Number 2</asp:label>
                         <asp:TextBox ID="Mobile2" Text="Mobile Number 2" 
-                           runat="server" ReadOnly="true"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Present Address</asp:label>                        
                         <asp:TextBox ID="PresentAddress" Text="Present Address" TextMode="MultiLine" Columns="50" Rows="5"
-                           runat="server" onclick="this.value='';" onblur="this.value='Note';" Width="100%"/>                        
+                           runat="server" Width="100%"/>                        
                     </div>
                      <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Premanent Address</asp:label>                        
                         <asp:TextBox ID="PermanentAddress" Text="Premanent Address" TextMode="MultiLine" Columns="50" Rows="5"
-                           runat="server" onclick="this.value='';" onblur="this.value='Note';" Width="100%"/>                        
+                           runat="server" Width="100%"/>                        
                     </div>
                    
                 </div>

@@ -76,6 +76,7 @@
     <Content Include="layout\styles\fonts\FontAwesome.otf" />
     <Content Include="LandMgmt.Master" />
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\LandManagement.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

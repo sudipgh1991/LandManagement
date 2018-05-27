@@ -26,16 +26,59 @@ namespace LandManagement
 
         private void InsertCustomer()
         {
+            string value = string.Empty;
             InsertData insertData = new InsertData();
             LandManagement.Model.Customer cust = new LandManagement.Model.Customer();
-            PropertyInfo[] properties = typeof(Customer).GetProperties();
-            for (int i = 0; i < Request.Form.AllKeys.Length; i++)
+
+            foreach (string name in Request.Form.AllKeys)
             {
-                PropertyInfo property = properties[i];
-                property.SetValue(cust, Request.Form[Request.Form.AllKeys[i]]);
+                value = Request.Form[name];                
+                switch (name)
+                {
+                    case "ctl00$Content$Name":
+                        cust.Name = value;
+                        break;
+                    case "ctl00$Content$FatherName":
+                        cust.FathersName = value;
+                        break;
+                    case "ctl00$Content$MotherName":
+                        cust.MothersName = value;
+                        break;
+                    case "ctl00$Content$SpouseName":
+                        cust.SpouseName = value;
+                        break;
+                    case "ctl00$Content$NumChild":
+                        cust.NumChild = value;
+                        break;
+                    case "ctl00$Content$Gender":
+                        cust.Gender = value;
+                        break;
+                    case "ctl00$Content$Age":
+                        cust.Age = value;
+                        break;
+                    case "ctl00$Content$IDNumber":
+                        cust.IDNumber = value;
+                        break;
+                    case "ctl00$Content$Mobile1":
+                        cust.Mobile1 = value;
+                        break;
+                    case "ctl00$Content$Mobile2":
+                        cust.Mobile2 = value;
+                        break;
+                    case "ctl00$Content$PresentAddress":
+                        cust.PresentAddress = value;
+                        break;
+                    case "ctl00$Content$PermanentAddress":
+                        cust.PermanentAddress = value;
+                        break;
+                    
+
+                }
 
             }
-            insertData.InsertCustomerData(cust);
+
+
+                insertData.InsertCustomerData(cust);
         }
     }
 }

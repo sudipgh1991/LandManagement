@@ -24,37 +24,37 @@
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Previous Serial Number</asp:label>
                         <asp:TextBox ID="PrevSerialNumber" Text="0001" 
-                           runat="server" onclick="this.value='';" onblur="this.value='0001';"/>
+                           runat="server"/>
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Buyer</asp:label>
                         <asp:TextBox ID="Buyer" Text="Buyer" 
-                           runat="server" onclick="this.value='';" onblur="this.value='Buyer';"/>
+                           runat="server"/>
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-user"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Seller</asp:label>
                         <asp:TextBox ID="Seller" Text="Seller" 
-                           runat="server" onclick="this.value='';" onblur="this.value='Seller';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-user"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Dolil Number</asp:label>
                         <asp:TextBox ID="DollilNo" Text="DollilNo" 
-                           runat="server" onclick="this.value='';" onblur="this.value='DollilNo';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Registration Date</asp:label>
                         <asp:TextBox ID="RegDate" Text="01/01/2018" 
-                           runat="server" onclick="this.value='';" onblur="this.value='01/01/2018';"/>
+                           runat="server"/>
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-calendar"></i></div>
                     </div>
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Type of Dolil</asp:label>
                         <asp:TextBox ID="TypeDolil" Text="TypeDolil" 
-                           runat="server" onclick="this.value='';" onblur="this.value='TypeDolil';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
                     <div class="input-group">
@@ -65,70 +65,70 @@
                     <div class="input-group input-group-icon">
                          <asp:label runat="server" CssClass="h4">CS Khata Number</asp:label>
                         <asp:TextBox ID="CSKhataNo" Text="CS Khata Number" 
-                           runat="server" onclick="this.value='';" onblur="this.value='CS Khata Number';"/>
+                           runat="server"/>
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">SA Khata Number</asp:label>
                         <asp:TextBox ID="SAKhataNo" Text="SA Khata Number" 
-                           runat="server" onclick="this.value='';" onblur="this.value='SA Khata Number';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">RS Khata Number</asp:label>
                         <asp:TextBox ID="RSKhataNo" Text="RS Khata Numbe" 
-                           runat="server" onclick="this.value='';" onblur="this.value='RS Khata Numbe';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">CS Mark Of Land</asp:label>
                         <asp:TextBox ID="CSMarkofLand" Text="CS Mark Of Land" 
-                           runat="server" onclick="this.value='';" onblur="this.value='CS Mark Of Land';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">SA Previous</asp:label>
                         <asp:TextBox ID="SAPrev" Text="SA Previous" 
-                           runat="server" onclick="this.value='';" onblur="this.value='SA Previous';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">RS Current</asp:label>
                         <asp:TextBox ID="RSCurr" Text="RS Current" 
-                           runat="server" onclick="this.value='';" onblur="this.value='RS Current';"/>
+                           runat="server"/>
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Land Quantity</asp:label>
                         <asp:TextBox ID="LandQuant" Text="Land Quantity" 
-                           runat="server" onclick="this.value='';" onblur="this.value='Land Quantity';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Via Dolil Number</asp:label>
                         <asp:TextBox ID="ViaDolilNum" Text="Via Dolil Number" 
-                           runat="server" onclick="this.value='';" onblur="this.value='Via Dolil Number';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Date</asp:label>
                         <asp:TextBox ID="Date" Text="Date" 
-                           runat="server" onclick="this.value='';" onblur="this.value='Date';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-calendar"></i></div>
                     </div>
 
                      <div class="input-group input-group-icon">
                          <asp:label runat="server" CssClass="h4">Jotdhar</asp:label>
                         <asp:TextBox ID="Jotdhar" Text="Jotdhar" 
-                           runat="server" onclick="this.value='';" onblur="this.value='Jotdhar';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-user"></i></div>
                     </div>
 
@@ -144,14 +144,14 @@
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Mutation Jot Number Previous</asp:label>
                         <asp:TextBox ID="MutationJotNumPrev" Text="Mutation Jot Number Previous" 
-                           runat="server" onclick="this.value='';" onblur="this.value='Mutation Jot Number Previous';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Mutation Jot Number Current</asp:label>
                         <asp:TextBox ID="MutationJotNumCurr" Text="Mutation Jot Number Current" 
-                           runat="server" onclick="this.value='';" onblur="this.value='Mutation Jot Number Current';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
@@ -165,20 +165,20 @@
                         <asp:label runat="server" CssClass="h4">Land Description</asp:label>
                         
                         <asp:TextBox ID="LandDescNature" Text="Land Description" TextMode="MultiLine" Columns="50" Rows="5"
-                           runat="server" onclick="this.value='';" onblur="this.value='Land Description';" Width="100%"/>
+                           runat="server"  Width="100%"/>
                         
                     </div>
                      <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Location Of Land</asp:label>
                         <asp:TextBox ID="Location" Text="Location" 
-                           runat="server" onclick="this.value='';" onblur="this.value='Location';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
                     <div class="input-group input-group-icon">
                         <asp:label runat="server" CssClass="h4">Upazila Name</asp:label>
                         <asp:TextBox ID="UpazilaName" Text="Upazila Name" 
-                           runat="server" onclick="this.value='';" onblur="this.value='Upazila Name';"/>
+                           runat="server" />
                         <div class="input-icon" style="margin-top:20px"><i class="fa fa-arrow-up"></i></div>
                     </div>
 
@@ -187,7 +187,7 @@
                         <asp:label runat="server" CssClass="h4">Note</asp:label>
                         
                         <asp:TextBox ID="Note" Text="Land Description" TextMode="MultiLine" Columns="50" Rows="5"
-                           runat="server" onclick="this.value='';" onblur="this.value='Note';" Width="100%"/>
+                           runat="server"  Width="100%"/>
                         
                     </div>
                 </div>
